@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
-	<Property Name="varPersistentID:{48ED0C72-55AD-49A4-8252-0B1BE9CDB44A}" Type="Ref">/My Computer/Shared Var Lib.lvlib/Camera Image 2</Property>
+<Project Type="Project" LVVersion="19008000">
+	<Property Name="varPersistentID:{02317AB7-20FB-4939-BDA7-DFC95B420F68}" Type="Ref">/My Computer/SharedVariables.lvlib/Image Out</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -22,8 +22,8 @@
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Secondary Moniter.vi" Type="VI" URL="../Secondary Moniter.vi"/>
-		<Item Name="Shared Var Lib.lvlib" Type="Library" URL="../../../../FRC-NOS-2018/PowerUp CompBot 18.2/Shared Var Lib.lvlib"/>
-		<Item Name="nosblacksquare_JKR_icon.ico" Type="Document" URL="../../../../../../Downloads/nosblacksquare_JKR_icon.ico"/>
+		<Item Name="nosblacksquare_JKR_icon.ico" Type="Document" URL="../nosblacksquare_JKR_icon.ico"/>
+		<Item Name="SharedVariables.lvlib" Type="Library" URL="../SharedVariables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -217,6 +217,7 @@
 				<Item Name="WPI_DashboardFormatPerf.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardFormatPerf.vi"/>
 				<Item Name="WPI_DashboardFPS Calculator.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardFPS Calculator.vi"/>
 				<Item Name="WPI_DashboardGet All Users Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardGet All Users Directory.vi"/>
+				<Item Name="WPI_DashboardGet Robot IP.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardGet Robot IP.vi"/>
 				<Item Name="WPI_DashboardLog file path.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardLog file path.vi"/>
 				<Item Name="WPI_DashboardLog NetworkTables2.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardLog NetworkTables2.vi"/>
 				<Item Name="WPI_DashboardLogging Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardLogging Global.vi"/>
@@ -266,7 +267,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
-			<Item Name="WPI_DashboardGet Robot IP.vi" Type="VI" URL="../../../../../../Downloads/2019.2.2_LVDashboard/Program Files (x86)/Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/Dashboard/WPI_DashboardGet Robot IP.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
@@ -293,7 +293,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Users/pcibam/Documents/LabVIEW Data/builds/FRC_Dashboard/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/nosblacksquare_JKR_icon.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Source[0].itemID" Type="Str">{D1206A8C-7457-407B-BF80-E78D81B6654F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
